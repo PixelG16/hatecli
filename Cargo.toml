@@ -1,0 +1,7 @@
+[package]
+name = "hatecli"
+version = "0.1.0"
+authors = ["No3cho <79093085+No3cho@users.noreply.github.com>"]
+edition = "2018"
+
+[dependencies]
