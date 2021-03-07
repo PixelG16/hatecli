@@ -5,3 +5,4 @@ authors = ["No3cho <79093085+No3cho@users.noreply.github.com>"]
 edition = "2018"
 
 [dependencies]
+structopt = { version = "0.3.21", default-features = false }
