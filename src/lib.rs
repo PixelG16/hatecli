@@ -1,6 +1,7 @@
 //! `hatecli` is a command-line version of [Hatebin](https://hatebin.com).
 
 pub mod cli;
+mod hatebin;
 
 use cli::App;
 

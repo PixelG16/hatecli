@@ -6,4 +6,5 @@ edition = "2018"
 
 [dependencies]
 url = "2.2.1"
+reqwest = { version = "0.11.1", features = ["blocking"] }
 structopt = { version = "0.3.21", default-features = false }
