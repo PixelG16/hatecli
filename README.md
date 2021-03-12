@@ -22,4 +22,4 @@ To upload a body found at another URL, specify the URL and `hatecli` fetches the
 
 Seeing as Hatebin has a maximum character limit of 50,000 characters, `hatecli` will not allow you to upload text that exceeds that limit by default. If you are okay with the text being truncated, add the force flag (`-F`)!
 
-`hatecli -F -f A/Extremely/Large/File/Path.txt`
+`hatecli -F -f An/Extremely/Large/File/Path.txt`
