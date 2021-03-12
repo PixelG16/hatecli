@@ -11,8 +11,8 @@ use structopt::StructOpt;
 fn main() 
 {
     // Get arguments, options and subcommands passed via CLI.
-    let app = App::from_args();
+    let mut app = App::from_args();
 
     // Run main logic of program.
-    hatecli::run(&app);
+    hatecli::run(&mut app);
 }
