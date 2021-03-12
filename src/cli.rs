@@ -52,9 +52,9 @@ impl App
     }
 
     /// File to be uploaded to Hatebin.
-    pub fn file(&self) -> &Option<File>
+    pub fn file_mut(&mut self) -> &mut Option<File>
     {
-        &self.file
+        &mut self.file
     }
 
     /// Content located at URL to be uploaded to Hatebin.
